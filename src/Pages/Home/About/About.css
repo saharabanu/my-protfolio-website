@@ -1,0 +1,19 @@
+/* .about-img{
+    background-image: url("https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} */
+.about-list{
+    list-style: none;
+    display: flex;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.info{
+    color:#D32F2F ;
+}

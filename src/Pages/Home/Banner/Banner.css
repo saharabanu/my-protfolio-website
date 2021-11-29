@@ -1,0 +1,46 @@
+.banner {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrqITQdd5ZKGbiDWlKBTKjHrPLaXWoL2uMQ&usqp=CAU"),
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+    
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  .title {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .title-sm {
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+  }
+  .resume{
+    background: #d3b530;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 40px;
+  }
+  .resume:hover{
+    background-color: maroon;
+    color:mintcream;
+  }
+
+
+
+
+
+
+
+
+
