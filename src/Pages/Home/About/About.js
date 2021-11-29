@@ -3,12 +3,12 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="about-img ">
-        <div id="about" className="container">
-            <h2>About Me</h2>
+        <div className="about-bg">
+        <div id="about" className="container ">
+            <h2 className="mt-3">About Me</h2>
                 <div className="row">
-                    <div className="col-md-5">
-                        <div className="banner-img">
+                    <div className="col-md-5 col-12">
+                        <div className="p-2">
                             
                             <ul>
                                 <li className="about-list info fw-bold ">Personal Info</li>
@@ -25,11 +25,11 @@ const About = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-7 col-12">
                         <div>
                         
-                        <h3>I am Sahara</h3>
-                        <p className="p-3">I am a junior front-end web developer with knowledge of different technologies and enough experience in creating and designing a super responsive website. And I also have good experience in creating SPA applications. </p>
+                        <h3>I am Sahara Banu</h3>
+                        <p className="p-5">I am a junior MERN Stack developer with knowledge of different technologies and enough experience in creating and designing a super responsive website. And I also have good experience in creating SPA applications. </p>
                         </div>
                     </div>
                 </div>

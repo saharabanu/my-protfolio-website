@@ -28,15 +28,15 @@ const projects=[
 const Projects = () => {
     
     return (
-        <div id="projects">
+        <div id="projects" style={{backgroundColor:'#008080'}}>
             <h4>My Projects</h4>
             <div className="container">
                 <div className="row">
                     {projects.map(project=><div key={project.id} className="col-md-4 col-12">
                         <div className="border">
-                            <img style={{width:300 , height: 200}} src={project.img} alt="" />
+                            <img style={{width:200 , height: 200}} src={project.img} alt="" />
                             <h4>{project.title}</h4>
-                            <p>{project.desc}</p>
+                            <p className="p-5">{project.desc}</p>
                             
                         </div>
 

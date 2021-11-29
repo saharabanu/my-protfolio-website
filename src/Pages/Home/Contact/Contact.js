@@ -11,8 +11,8 @@ const Contact = () => {
         .catch(err=>console.log(err))
     }
     return (
-        <div id="contact" >
-            <h3>Contact  With Me</h3>
+        <div id="contact" style={{backgroundColor:'#800000',paddingBottom:'5px',marginTop:'10px'}} >
+            <h3 className="text-white">Contact  With Me</h3>
             <div className="form-container">
                 <form onSubmit={sendEmail}>
                     <div className="form-group">
