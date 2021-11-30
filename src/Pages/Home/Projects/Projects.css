@@ -1,5 +1,6 @@
 .projects-div{
     border: red;
+    background-color:firebrick ;
     border-radius:10px;
     transition: width .5s linear 1s;
     
