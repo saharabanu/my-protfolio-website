@@ -8,8 +8,8 @@ import Blogs from './Pages/Blogs/Blogs';
 import Explore from './Pages/Explore/Explore';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
-import Footer from './Pages/Shared/Footer/Footer';
 import Navigation from './Pages/Shared/Navigation/Navigation';
+import Skills from './Pages/Skills/Skills';
 
 function App() {
   return (
@@ -24,12 +24,16 @@ function App() {
       </Route>
       <Route path="/projects/:projectId" element={<Explore/>}>
       </Route>
+      {/* <Route path="/services" element={<Services/>}>
+      </Route> */}
       <Route path="/blogs" element={<Blogs/>}>
+      </Route>
+      <Route path="/skills" element={<Skills/>}>
       </Route>
       <Route path="*" element={<NotFound/>}>
       </Route>
     </Routes>
-    <Footer/>
+    
   </BrowserRouter>
     </div>
   );

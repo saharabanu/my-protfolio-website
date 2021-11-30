@@ -8,7 +8,7 @@
     border-radius: 8px;
     margin-bottom: 20px;
     cursor:pointer;
-    transition: .3s ease background-color;
+    transition: background-color .3s  ease ;
 }
 .form-container:hover{
     background-color: wheat;

@@ -11,8 +11,8 @@ const Contact = () => {
         .catch(err=>console.log(err))
     }
     return (
-        <div id="contact">
-            <h3 className="text-white fw-bold"><span className="text-danger">Contact</span>  With Me</h3>
+        <div id="contact" style={{marginTop:'70px'}}>
+            <h3 className="text-white fw-bold mb-5"><span className="text-danger">Contact</span>  With Me</h3>
             <div className="form-container">
                 <form onSubmit={sendEmail}>
                     <div className="form-group">

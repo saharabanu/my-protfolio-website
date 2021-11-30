@@ -1,0 +1,9 @@
+.service{
+    background-color: lightcyan;
+    color:black;
+    cursor:pointer
+}
+
+.service:hover{
+    background-color:brown ;
+}

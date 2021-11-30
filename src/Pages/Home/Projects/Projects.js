@@ -14,15 +14,15 @@ const Projects = () => {
     },[])
     
     return (
-        <div id="projects">
-            <h4>My Projects</h4>
+        <div id="projects" style={{marginTop:'70px'}}>
+            <h4 className="mb-5 fw-bold text-danger">My Projects</h4>
             <div className="container">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {projects?.map(project=><div key={project.id} className="col">
-                        <div className="border card h-100">
+                        <div className="border card projects-div h-100">
                           <img src={project.img} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">{project.title}</h5>
+                        <h5 className="card-title text-dark">{project?.title}</h5>
                         
                     </div>
                     <div className="card-footer">

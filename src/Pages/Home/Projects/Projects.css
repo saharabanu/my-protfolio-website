@@ -1,0 +1,11 @@
+.projects-div{
+    border: red;
+    border-radius:10px;
+    transition: width .5s linear 1s;
+    
+}
+.projects-div:hover{
+    width: 350px;
+    background-color: tan;
+    
+}

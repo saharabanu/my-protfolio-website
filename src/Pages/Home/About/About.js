@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 const About = () => {
     return (
         <div className="about-bg">
         <div id="about" className="container ">
-            <h2 className="mt-3">About Me</h2>
+            <h2 className="mb-3 text-danger fw-bold">About Me</h2>
                 <div className="row">
                     <div className="col-md-5 col-12">
                         <div className="p-2">
@@ -21,14 +22,18 @@ const About = () => {
                                 <li className="about-list">Email: <span className="info">saharabanungn@gmail.com</span></li>
                                 <li className="about-list">Qualification: <span className="info">Masters of Arts(English)</span></li>
                                 <li className="about-list">Language: <span  className="info">Bangla,English</span></li>
-                                <li className="about-list">Nationality:  <span  className="info">Bengali</span> </li>
+                                <li className="about-list">Nationality:  <span  className="info">Bangladeshi</span> </li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-md-7 col-12">
                         <div>
                         <h3>I am Sahara Banu</h3>
-                        <p className="p-5">I am a junior MERN Stack developer with knowledge of different technologies and enough experience in creating and designing a super responsive website. And I also have good experience in creating SPA applications. </p>
+                        <p >I am a junior MERN Stack developer with knowledge of different technologies and enough experience in creating and designing a super responsive website. And I also have good experience in creating SPA applications.You can reach out to me if you need any help in making a website for your business.</p>
+                        <p >I have some project using HTMl,Css,JavaScript,React.js,React Router,Node.js,Express.js,Firebase,Heroku And other technology.I have also used React Bootstrap,Material-UI,Tailwind.Css framework.I actively search out new technologies and keep up-to-date on business trends and advancements.</p>
+                        <br />
+                        <Link to='/skills'><button className="btn btn-danger rounded-pill px-3">About More</button></Link>
+                        
                         </div>
                     </div>
                 </div>

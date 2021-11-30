@@ -1,0 +1,17 @@
+.main-div{
+    background-color: slategray;
+    transition: background-color .3s linear 1s;
+    
+}
+.main-div:hover{
+    background-color: wheat;
+}
+.skill-image{
+    width:100px;
+    transition: width 2s, transform 2s;
+
+}
+.skill-image:hover{
+    width:150px;
+    transform: rotate(360deg)
+}

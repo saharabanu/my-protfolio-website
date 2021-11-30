@@ -1,4 +1,6 @@
-
+.about-bg{
+    margin-top:70px ;
+}
 .about-list{
     list-style: none;
     display: flex;
