@@ -17,6 +17,7 @@ const Navigation = () => {
                         <Nav.Link className="item" as={HashLink} to="/home#projects">projects</Nav.Link>
                         <a href="https://drive.google.com/file/d/1kk5QGOW7vbRWc-QJXhWOV8NUqJes5Bep/view" target="_blank" rel="noreferrer" className="item" style={{textDecoration:'none'}}> My Resume</a>
                         <Nav.Link className="item" as={HashLink} to="/home#contact">Contact</Nav.Link>
+                        <Nav.Link className="item" as={HashLink} to="/blogs">Blogs</Nav.Link>
                         
                     </Navbar.Collapse>
                 </Container>

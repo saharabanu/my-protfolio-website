@@ -11,21 +11,21 @@ const Contact = () => {
         .catch(err=>console.log(err))
     }
     return (
-        <div id="contact" style={{backgroundColor:'#800000',paddingBottom:'5px',marginTop:'10px'}} >
-            <h3 className="text-white">Contact  With Me</h3>
+        <div id="contact">
+            <h3 className="text-white fw-bold"><span className="text-danger">Contact</span>  With Me</h3>
             <div className="form-container">
                 <form onSubmit={sendEmail}>
                     <div className="form-group">
                         <label htmlFor="Your Name">Name</label>
-                        <input type="text" name="name" className="form-control"/>
+                        <input type="text" name="name" className="form-control" placeholder="Your Name"/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="Your Email">Email : </label>
-                        <input type="email" name="user_email" className="form-control"/>
+                        <input type="email" name="user_email" className="form-control" placeholder="Your Email"/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="message">Message : </label>
-                        <textarea  name="message" cols="10" rows="4" className="form-control"></textarea>
+                        <textarea  name="message" cols="10" rows="4" className="form-control" placeholder="Type Message"></textarea>
                     </div>
                     <input type="submit" value="Send"/>
                 </form>

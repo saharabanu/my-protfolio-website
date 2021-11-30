@@ -27,7 +27,6 @@ const About = () => {
                     </div>
                     <div className="col-md-7 col-12">
                         <div>
-                        
                         <h3>I am Sahara Banu</h3>
                         <p className="p-5">I am a junior MERN Stack developer with knowledge of different technologies and enough experience in creating and designing a super responsive website. And I also have good experience in creating SPA applications. </p>
                         </div>

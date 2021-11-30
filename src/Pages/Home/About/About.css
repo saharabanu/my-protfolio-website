@@ -1,13 +1,11 @@
-.about-bg{
-    background-color:#FFFFE0;
-}
+
 .about-list{
     list-style: none;
     display: flex;
     text-align: left;
     margin-bottom: 5px;
     font-size: 20px;
-    /* font-weight: 600; */
+    
 }
 .info{
     color:#D32F2F ;
