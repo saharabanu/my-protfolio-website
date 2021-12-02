@@ -12,3 +12,8 @@
 .info{
     color:#D32F2F ;
 }
+.about-para{
+    display: flex;
+    text-align: left;
+}
+

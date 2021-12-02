@@ -7,12 +7,16 @@ const Banner = () => {
         <div className="row container">
           
         <div className="col-md-5 col-12">
-          <div className="d-flex  align-items-center justify-content-center ">
+          <div className="d-flex  align-items-center justify-content-center " data-aos="fade-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
           <img className="rounded-circle" style={{width:200 ,height: 200}} src="https://i.ibb.co/NmHvrhG/262402659-1735915976601927-4074890799033005079-n-removebg-preview.png" alt="" />
             </div>
           </div>
-          <div className="col-md-7 col-12">
-            <div className="d-flex  align-items-center justify-content-center ">
+          <div className="col-md-7 col-12" >
+            <div className="d-flex  align-items-center justify-content-center " data-aos="fade-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
             <div>
             <h2 className="title">Hello! I'm <span style={{color:'rgb(250, 128, 114)'}}>Sahara Banu</span></h2>
             <h4 className="title-sm"> Junior MERN Stack Developer</h4>

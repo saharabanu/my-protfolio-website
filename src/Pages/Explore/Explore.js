@@ -19,10 +19,14 @@ const Explore = () => {
     },[projectsDetails])
     return (
         <div className="text-dark container">
-            <h2>Explore {projectId}</h2>
+            <h2>Project {projectId}</h2>
             <div className="card" >
-            <img  style={{height:'300px'}} src={singlepProject?.img} className="card-img-top" alt="..."/>
+            <img  style={{height:'300px',cursor:'pointer'}} src={singlepProject?.img} className="card-img-top" alt="..." data-aos="zoom-in-up"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000"/>
+            <br /> 
             <img  style={{height:'300px'}} src={singlepProject?.img1} className="card-img-top" alt="..."/>
+            <br />
             <img  style={{height:'300px'}} src={singlepProject?.img2} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title fw-bold">Project Name: <span className="text-danger">{singlepProject?.title}</span></h5>

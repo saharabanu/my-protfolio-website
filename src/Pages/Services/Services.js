@@ -33,7 +33,9 @@ const Services = () => {
             <h3 className="mb-3">My Services</h3>
             <div className="row">
                 {services.map(service=><div key={service.id}className="col-md-4 col-12 mb-3">
-                    <div className="border h-100  service">
+                    <div className="border h-100  service"  data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <h4>{service.title}</h4>
                         <p>{service.desc}</p>
                     </div>
