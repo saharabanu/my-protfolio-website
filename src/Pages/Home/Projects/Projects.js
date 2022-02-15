@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import './Projects.css';
 
 
+
+
+
+
+
 const Projects = () => {
 
     const [projects,setProjects] = useState([])
@@ -19,9 +24,7 @@ const Projects = () => {
             <div className="container">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {projects?.map(project=><div key={project.id} className="col">
-                        <div className="border card projects-div h-100" data-aos="zoom-in"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-duration="1000">
+                        <div className="border card projects-div h-100" >
                           <img src={project.img} className="card-img-top" alt="..."   />
                     <div className="card-body">
                         <h5 className="card-title text-dark">{project?.title}</h5>
