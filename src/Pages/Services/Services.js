@@ -1,4 +1,3 @@
-import React from 'react';
 import './Services.css';
 const services=[
     {
@@ -36,8 +35,10 @@ const Services = () => {
                     <div className="border h-100  service"  data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
+                        <div className="text-start px-2 pt-3">
                         <h4>{service.title}</h4>
                         <p>{service.desc}</p>
+                        </div>
                     </div>
 
                 </div>)}

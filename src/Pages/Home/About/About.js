@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './About.css';
 
@@ -34,7 +33,9 @@ const About = () => {
                         <div>
                         <h3>I am Sahara Banu</h3>
                         <p className="about-para">I am a junior MERN Stack developer with knowledge of different technologies and enough experience in creating and designing a super responsive website. And I also have good experience in creating SPA applications.You can reach out to me if you need any help in making a website for your business.</p>
-                        <p className="about-para">I have some project using HTMl,Css,JavaScript,React.js,React Router,Node.js,Express.js,Firebase,Heroku And other technology.I have also used React Bootstrap,Material-UI,Tailwind.Css framework.I actively search out new technologies and keep up-to-date on business trends and advancements.</p>
+                        <p className="about-para">I have  completed one month internship as a Reactjs Developer in Save Eco Organic Pvt. Ltd.I have also worked in a team for two months for creating a Multivendor E-commerce website.</p>
+
+                        <p className="about-para">I have some project using HTMl,CSS,JavaScript,React.js,React Router,Redux,Node.js,Express.js,Firebase,Heroku And other technology.I have also used React Bootstrap,Material-UI,Tailwind.Css framework.I actively search out new technologies and keep up-to-date on business trends and advancements.</p>
                         <br />
                         <Link to='/skills'><button className="btn btn-danger rounded-pill px-3">About More</button></Link>
                         
